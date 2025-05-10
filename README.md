@@ -2,7 +2,7 @@
 
 ## Descripción del Proyecto
 
-ClasifEye es un sistema basado en Inteligencia Artificial diseñado para detectar rostros humanos en imágenes y clasificar automáticamente atributos como edad, género y raza/etnia. [cite: 6] Este proyecto busca poner en práctica conceptos de Computación Visual, fortalecer habilidades investigativas y técnicas en el manejo de bibliotecas de código abierto e implementación de redes neuronales convolucionales (CNN), así como el desarrollo de aplicaciones web interactivas. [cite: 2] Además, promueve el trabajo colaborativo y aborda desafíos éticos relacionados con el análisis de sesgos en los resultados. [cite: 3, 5]
+ClasifEye es un sistema basado en Inteligencia Artificial diseñado para detectar rostros humanos en imágenes y clasificar automáticamente atributos como edad, género y raza/etnia. Este proyecto busca poner en práctica conceptos de Computación Visual, fortalecer habilidades investigativas y técnicas en el manejo de bibliotecas de código abierto e implementación de redes neuronales convolucionales (CNN), así como el desarrollo de aplicaciones web interactivas. Además, promueve el trabajo colaborativo y aborda desafíos éticos relacionados con el análisis de sesgos en los resultados.
 
 La capacidad de detectar y clasificar estos atributos faciales tiene aplicaciones prácticas significativas en áreas como la personalización de experiencias de usuario, mejora de sistemas de vigilancia y análisis demográfico. [cite: 1]
 
@@ -12,82 +12,82 @@ Desarrollar un sistema basado en IA que detecte rostros humanos en imágenes y c
 
 ## Tecnologías Principales (En consideración)
 
-* Python [cite: 7]
-* OpenCV [cite: 7]
-* TensorFlow/Keras [cite: 7]
-* Flask (para interfaz web) [cite: 7]
+* Python
+* OpenCV
+* TensorFlow/Keras
+* Flask (para interfaz web)
 
 ## Conjuntos de Datos (En consideración)
 
-* UTKFace [cite: 7]
-* FaceARG [cite: 7]
-* CelebA [cite: 7]
+* UTKFace
+* FaceARG
+* CelebA
 
-(La selección final del dataset se realiza en la Semana 2 del proyecto). [cite: 11]
+(La selección final del dataset se realiza en la Semana 2 del proyecto).
 
 ## Estructura del Proyecto y Fases de Desarrollo (Plan de 10 Semanas)
 
 El proyecto está estructurado en 10 semanas, con objetivos y tareas específicas para cada fase:
 
 **Semana 1: Investigación y Fundamentos**
-* Configuración del Entorno (Creación de repositorio, configuración de entorno Python, instalación de librerías base). [cite: 9]
-* Análisis Detallado de Datasets. [cite: 9]
-* Investigación de Herramientas (CNN, Transfer Learning). [cite: 9]
-* Boceto Inicial de Arquitectura. [cite: 9]
+* Configuración del Entorno (Creación de repositorio, configuración de entorno Python, instalación de librerías base).
+* Análisis Detallado de Datasets.
+* Investigación de Herramientas (CNN, Transfer Learning).
+* Boceto Inicial de Arquitectura.
 
 **Semana 2: Definiciones y Planificación Detallada**
-* Selección Final de Dataset. [cite: 11]
-* Selección Final de Herramientas (detector facial, estrategia de clasificación). [cite: 11]
-* Definición Detallada de Arquitectura y Pipeline. [cite: 11]
-* Asignación Detallada de Tareas. [cite: 11]
+* Selección Final de Dataset.
+* Selección Final de Herramientas (detector facial, estrategia de clasificación).
+* Definición Detallada de Arquitectura y Pipeline.
+* Asignación Detallada de Tareas.
 
 **Semana 3: Adquisición y Preprocesamiento Inicial**
-* Descarga y Organización de Datos. [cite: 13]
-* Script de Carga y Exploración de Datos. [cite: 13]
-* Implementación de Detección/Recorte Básico de Rostros. [cite: 13]
-* Limpieza Inicial de Datos. [cite: 13]
+* Descarga y Organización de Datos.
+* Script de Carga y Exploración de Datos.
+* Implementación de Detección/Recorte Básico de Rostros.
+* Limpieza Inicial de Datos.
 
 **Semana 4: Preprocesamiento Avanzado y Preparación**
-* Normalización de Imágenes. [cite: 15]
-* Implementación de Aumento de Datos (Data Augmentation). [cite: 15]
-* División Estratificada de Datos (train/validation/test). [cite: 15]
-* Creación de Generadores/Pipelines de Datos. [cite: 15]
+* Normalización de Imágenes.
+* Implementación de Aumento de Datos (Data Augmentation).
+* División Estratificada de Datos (train/validation/test).
+* Creación de Generadores/Pipelines de Datos.
 
 **Semana 5: Construcción y Entrenamiento Inicial del Modelo**
-* Implementación de la Arquitectura CNN. [cite: 17]
-* Definición de Funciones de Pérdida y Métricas. [cite: 17]
-* Configuración del Entorno de Entrenamiento. [cite: 17]
-* Prueba de Entrenamiento (Smoke Test). [cite: 17]
+* Implementación de la Arquitectura CNN.
+* Definición de Funciones de Pérdida y Métricas.
+* Configuración del Entorno de Entrenamiento.
+* Prueba de Entrenamiento (Smoke Test).
 
 **Semana 6: Entrenamiento, Evaluación y Ajuste del Modelo**
-* Entrenamiento Completo del Modelo. [cite: 18]
-* Evaluación Preliminar del Modelo. [cite: 18]
-* Análisis de Resultados y Errores. [cite: 19]
-* Ajuste de Hiper Parámetros / Re-entrenamiento. [cite: 20]
-
+* Entrenamiento Completo del Modelo.
+* Evaluación Preliminar del Modelo.
+* Análisis de Resultados y Errores.
+* Ajuste de Hiper Parámetros / Re-entrenamiento.
+* 
 **Semana 7: Integración con Detección Facial**
-* Implementación del Módulo de Detección Facial. [cite: 22]
-* Procesamiento de Salida del Detector. [cite: 22]
-* Módulo de Extracción y Preparación de Rostros. [cite: 22]
-* Pruebas del Módulo de Detección/Extracción. [cite: 22]
+* Implementación del Módulo de Detección Facial.
+* Procesamiento de Salida del Detector.
+* Módulo de Extracción y Preparación de Rostros.
+* Pruebas del Módulo de Detección/Extracción.
 
 **Semana 8: Pipeline Completo y Clasificación**
-* Carga del Modelo Entrenado. [cite: 24]
-* Integración del Clasificador con la Detección. [cite: 24]
-* Script del Pipeline End-to-End. [cite: 24]
-* Pruebas del Pipeline Completo. [cite: 24]
+* Carga del Modelo Entrenado.
+* Integración del Clasificador con la Detección.
+* Script del Pipeline End-to-End.
+* Pruebas del Pipeline Completo.
 
 **Semana 9: Desarrollo de Interfaz y Refinamiento**
-* Configuración del Proyecto Flask (o Script Local). [cite: 26]
-* Diseño de Interfaz Simple (HTML/CSS). [cite: 26]
-* Integración Backend con Pipeline. [cite: 26]
-* Visualización de Resultados. [cite: 26]
+* Configuración del Proyecto Flask (o Script Local). 
+* Diseño de Interfaz Simple (HTML/CSS).
+* Integración Backend con Pipeline.
+* Visualización de Resultados.
 
 **Semana 10: Pruebas Finales, Documentación y Entrega**
-* Pruebas Exhaustivas del Sistema. [cite: 28]
-* Evaluación Final y Análisis de Sesgos. [cite: 28]
-* Documentación y Limpieza de Código (Incluyendo finalización de README). [cite: 28]
-* Preparación de Presentación y Demo. [cite: 28]
+* Pruebas Exhaustivas del Sistema. 
+* Evaluación Final y Análisis de Sesgos.
+* Documentación y Limpieza de Código (Incluyendo finalización de README). 
+* Preparación de Presentación y Demo.
 
 
 ## Instalación y Uso
